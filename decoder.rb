@@ -49,3 +49,8 @@ def decode(string)
   arr.each { |word| result += "#{decode_word(word)} " }
   result
 end
+
+print decode('-- -.--   -. .- -- .')
+print "\n"
+
+print decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
