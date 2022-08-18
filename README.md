@@ -48,7 +48,7 @@ Free to use for your work
 #### Clone this repository
 
 ```bash
-$ git clone https://github.com/waqaskanju/book-cms.git
+$ git clone https://github.com/waqaskanju/Morse_Code.git
 
 $ cd [project_name]
 

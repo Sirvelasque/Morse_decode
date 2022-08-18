@@ -28,8 +28,10 @@ morse_map = {
 }
 
 def decode_char(char)
-  # decode sending back 1 character, feel free to use the 
-  
+  result = ''
+  arr = string.split('')
+  arr.each { |val| result += "#{decode_char(val)}" }
+  result
 end
 
 def decode(string)
@@ -38,3 +40,4 @@ def decode(string)
   arr.each { |val| result += "#{decode_char(val)}" }
   result
 end
+
