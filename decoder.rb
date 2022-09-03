@@ -45,8 +45,8 @@ print "\n"
 
 def decode(string)
   result = ''
-  arr = string.split('   ')
-  arr.each { |word| result += "#{decode_word(word)} " }
+  arr = string.split(' ')
+  arr.each { |word| result += "#{decode_word(word)}" }
   result
 end
 
